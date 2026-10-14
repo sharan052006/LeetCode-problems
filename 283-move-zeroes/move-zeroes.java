@@ -6,8 +6,10 @@ class Solution {
             if(nums[j]==0){
                 continue;
             }
-            nums[i]=nums[j];
-            i++;
+            else{
+                nums[i]=nums[j];
+                i++;
+            }
         }
         while(i<nums.length){
             nums[i]=0;
